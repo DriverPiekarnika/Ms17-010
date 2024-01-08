@@ -9,5 +9,5 @@ wusa /uninstall /kb:5003209
 If the script says that the machine is vulnerable but you still facing this issue, then open group policy editor
 `gpedit.msc`
 `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options`
-Edit `Network access: Shares that can be accessed anonymously` and add "\" to the empty list<br><br>
+Edit `Network access: Shares that can be accessed anonymously` and add " \ " to the empty list<br><br>
 <img src="https://cdn.discordapp.com/attachments/782031360217841664/1194019360193384479/image.png?ex=65aed42f&is=659c5f2f&hm=c3caf2ba6aa5dff3215b85cc8f4fa3a4e7a4b39778281b249ff115b8e08d3925&">
